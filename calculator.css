@@ -1,0 +1,112 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 93vh;
+  width: 40%;
+  margin: auto;
+  margin-top: 3%;
+  background-color: rgb(211, 211, 211);
+  border-radius: 0.7rem;
+  padding: 1rem;
+  min-width: 300px;
+  min-height: 400px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container h1 {
+  background-color: black;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  border-radius: 0.3rem;
+  /* font-size: 2.3em; */
+  font-size: 1.8rem;
+}
+/* calculator */
+.container #calulate {
+  height: 15%;
+  background-color: white;
+  margin-top: 1.2rem;
+  border-radius: 0.7rem;
+  font-size: 1.8rem;
+text-align: right;
+vertical-align: middle;
+}
+.numcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.numkey:hover {
+  background-color: #ffc877;
+  transition: all 0.5s ease-in-out;
+}
+
+.numkey {
+  height: 15%;
+  width: 25%;
+  min-height: 60px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--border-width) solid var(--light-grey);
+  border: 1px solid rgb(211, 211, 211);
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+#operatekey:hover {
+  background-color: #ffc877;
+  transition: all 0.5s ease-in-out;
+}
+#operatekey {
+  height: 15%;
+  width: 25%;
+  min-height: 60px;
+  background-color: #c14444;
+  transition: all 0.5s ease-in-out;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--border-width) solid var(--light-grey);
+  border: 1px solid rgb(211, 211, 211);
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+#operatekey div {
+  color: #fff8f8;
+}
+#lastkey:hover {
+  background-color: #ffc877;
+  transition: all 0.5s ease-in-out;
+}
+#lastkey {
+  height: 15%;
+  width: 50%;
+  min-height: 60px;
+  background-color: #fff8f8;
+  transition: all 0.5s ease-in-out;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--border-width) solid var(--light-grey);
+  border: 1px solid rgb(211, 211, 211);
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
